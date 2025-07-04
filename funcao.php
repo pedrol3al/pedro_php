@@ -2,14 +2,14 @@
 
 # index 0123456789012345
 
-$name = "Stefanie Hatcher";
-$length = strlen($name);
+$name = "Stefanie Hatcher"; 
+$length = strlen($name); 
 $cmp = strcmp($name, "Brian Le");
-$index = Strpos($name, "e");
+$index = strpos($name, "e");
 $first = substr($name, 9, 5);
 $name = strtoupper($name);
 
-echo $name."<br>";
+echo $name."<br>"; 
 echo $length."<br>";
 echo $cmp."<br>";
 echo $index."<br>";
