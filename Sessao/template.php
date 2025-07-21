@@ -10,11 +10,11 @@
 <h1>Gerenciador de tarefas</h1>
 
 
-<form >
+<form border="1">
     <fieldset> 
     <legend>Nova tarefa</legend>
     <label>
-        Tarefa
+        Tarefa 
         <input type="text" name="nome"/>
     </label>
     <label>
@@ -55,7 +55,11 @@
     </tr>
     <?php foreach ($lista_tarefas as $tarefa) : ?>
     <tr>
-        <td><?php echo $tarefa;?> </td>
+        <td><?php echo $tarefa['nome']?></td>
+        <td><?php echo $tarefa['descricao']?></td>
+        <td><?php echo $tarefa['prazo']?></td>
+        <td><?php echo $tarefa['prioridade']?></td>
+        <td><?php echo $tarefa['concluida']?></td>
     </tr>
     <?php endforeach;?>
 </table>

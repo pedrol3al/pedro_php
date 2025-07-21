@@ -8,7 +8,7 @@
         if(isset($_GET['descricao'])){
             $tarefa['descricao'] = $_GET['descricao'];
         }else{
-            $tarefa['descricao']='';
+            $tarefa['descricao']=''; 
         }
         if(isset($_GET['prazo'])){
             $tarefa['prazo'] = $_GET['prazo'];
