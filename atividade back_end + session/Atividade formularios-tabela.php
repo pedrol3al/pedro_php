@@ -21,7 +21,7 @@
 
     <table  class="tabela" border="1" align="center" cellpadding="10" cellspacing="0">
       <tr>
-        <td><img class="icone_pessoa" src="imagens/icone pessoa.png" ></td>
+        <td><img class="icone_pessoa" src="../imagens/icone pessoa.png" ></td>
         <td class="cadastro_funcionario" colspan="10">
           <h1><strong>Cadastro de funcionarios</strong></font></h1>
         </td>
@@ -52,30 +52,7 @@
         <td><input type="password" placeholder="Senha" maxlength="12" size="10" name="senha"></td>
         <td><input type="date" size="15"></td>
       </tr>
-      <tr>
-        <td colspan="2"><input type="text" placeholder="Nome" size="15"></td>
-        <td><input type="text" placeholder="Data de nascimento" size="16"></td>
-        <td><input type="text" placeholder="Nome do Usuário" size="10" maxlength="10"></td>
-        <td><input type="text" placeholder="Endereço" size="25"></td>
-        <td><input type="text" placeholder="CPF" size="18"></td>
-        <td><input type="tel" placeholder="Telefone" size="12"></td>
-        <td><input type="email" placeholder="Email" size="15"></td>
-        <td><input type="text" placeholder="RG" size="10"></td>
-        <td><input type="password" placeholder="Senha" maxlength="12" size="10"></td>
-        <td><input type="date" size="15"></td>
-      </tr>
-      <tr>
-        <td colspan="2"><input type="text" placeholder="Nome" size="15"></td>
-        <td><input type="text" placeholder="Data de nascimento" size="16"></td>
-        <td><input type="text" placeholder="Nome do Usuário" size="10" maxlength="10"></td>
-        <td><input type="text" placeholder="Endereço" size="25"></td>
-        <td><input type="text" placeholder="CPF" size="18"></td>
-        <td><input type="tel" placeholder="Telefone" size="12"></td>
-        <td><input type="email" placeholder="Email" size="15"></td>
-        <td><input type="text" placeholder="RG" size="10"></td>
-        <td><input type="password" placeholder="Senha" maxlength="12" size="10"></td>
-        <td><input type="date" size="15"></td>
-      </tr>
+     
 
       <!-- Botões de ação -->
       <tr>
@@ -86,10 +63,6 @@
         
         </td>
       </tr>
-      
-      
-   
-
     </table>
 
   </form>
