@@ -91,7 +91,7 @@ th, td {
     <div class="container menu-container">
   <div class="row text-center">
 
-  <div class="col-12 col-md-4 mb-3">
+  <div class="col-12 col-md-4 mb-1">
       <a href="http://localhost:8080/pedro_php/ConexaoPdo/pesquisarCliente.php"><div class="square" > Pesquisar Cliente </div></a>
     </div>
 

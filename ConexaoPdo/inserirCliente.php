@@ -6,33 +6,41 @@
   <title>Cadastro de Cliente</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    body, html {
-      height: 100%;
+ html, body {
       margin: 0;
-      scrollbar-width: none;
-      background-color: #f8f9fa;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
     }
 
-    h2 {
+    header {
+      background-color: #22468a;
+      width: 100%;
       text-align: center;
-      margin-top: 20px;
-      color: #22468a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: antiquewhite;
+      height: 200px;
     }
 
-    .form-container {
-      max-width: 600px;
+    .menu-container {
+      flex: 1; /* Ocupa o restante da tela, empurrando o rodapé para baixo */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 30px 0;
+    }
+
+       .form-container {
+      max-width: 400px;
       margin: 30px auto;
       background-color: #fff;
       padding: 30px;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-
-    .menu-container {
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
     }
 
     .square {
@@ -55,25 +63,19 @@
       cursor: pointer;
     }
 
-    table {
-      width: 90%;
-      margin: 0 auto;
-      border-collapse: collapse;
-    }
-
-    table, th, td {
-      border: 1px solid #333;
-    }
-
-    th, td {
-      padding: 10px;
+    address {
+      background-color: #22468a;
+      color: white;
       text-align: center;
+      padding: 10px;
+      font-style: normal;
+      margin: 0; /* remove espaçamento padrão */
     }
   </style>
 </head>
 <body>
 
-  <h2>Cadastro de Cliente</h2>
+  <header>Cadastrar Cliente</header>
 
   <div class="form-container">
     <form action="processarInsercao.php" method="POST">
@@ -105,7 +107,7 @@
     <div class="row text-center">
 
       <div class="col-12 col-md-4 mb-3">
-        <a href="http://localhost:8080/pedro_php/ConexaoPdo/pesquisarCliente.php">
+        <a href="C:\xampp\htdocs\pedro_php\ConexaoPdo\pesquisar">
           <div class="square">Pesquisar Cliente</div>
         </a>
       </div>
@@ -142,6 +144,10 @@
 
     </div>
   </div>
+
+  <address>
+  Trabalho desenvolvido pelo aluno Pedro Gabriel | Aluno Técnico | Desenvolvimento de Sistemas
+</address>
 
 </body>
 </html>

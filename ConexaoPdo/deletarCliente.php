@@ -132,7 +132,7 @@
   <div class="container menu-container">
     <div class="row text-center w-100">
 
-      <div class="col-12 col-md-4 mb-3">
+      <div class="col-12 col-md-4 mb-1">
         <a href="http://localhost:8080/pedro_php/ConexaoPdo/pesquisarCliente.php">
           <div class="square">Pesquisar Cliente</div>
         </a>
