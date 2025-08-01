@@ -20,6 +20,10 @@
       flex-direction: column;
     }
 
+        a{
+      text-decoration: none;
+    }
+
     /* Header fixo no topo */
     header {
       background-color: #22468a;

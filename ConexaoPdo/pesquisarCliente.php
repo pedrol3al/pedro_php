@@ -85,6 +85,10 @@
         margin: 0;
       }
 
+    a{
+      text-decoration: none;
+    }
+
       header {
       background-color: #22468a;
       width: 100%;

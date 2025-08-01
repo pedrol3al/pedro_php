@@ -36,7 +36,7 @@
 
        .form-container {
       max-width: 400px;
-      margin: 30px auto;
+      margin: 10px auto;
       background-color: #fff;
       padding: 30px;
       border-radius: 10px;
@@ -54,6 +54,10 @@
       text-align: center;
       border-radius: 10px;
       transition: transform 0.2s;
+      text-decoration: none;
+    }
+
+        a{
       text-decoration: none;
     }
 
@@ -107,7 +111,7 @@
     <div class="row text-center">
 
       <div class="col-12 col-md-4 mb-3">
-        <a href="C:\xampp\htdocs\pedro_php\ConexaoPdo\pesquisar">
+        <a href="C:\xampp\htdocs\pedro_php\ConexaoPdo\pesquisarCliente.php">
           <div class="square">Pesquisar Cliente</div>
         </a>
       </div>
@@ -119,15 +123,13 @@
       </div>
 
       <div class="col-12 col-md-4 mb-3">
-        <a href="http://localhost:8080/pedro_php/ConexaoPdo/inserirCliente.php">
+        <a href="inserirCliente.php">
           <div class="square">Cadastrar Cliente</div>
         </a>
       </div>
 
-      <div class="col-12 col-md-4 mb-3">
-        <a href="http://localhost:8080/pedro_php/ConexaoPdo/atualizarCliente.php">
-          <div class="square">Atualizar Cliente</div>
-        </a>
+  <div class="col-12 col-md-4 mb-3">
+        <a href="atualizarCliente.php"><div class="square">Atualizar Cliente</div></a>
       </div>
 
       <div class="col-12 col-md-4 mb-3">

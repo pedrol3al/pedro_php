@@ -73,6 +73,10 @@ if ($idCliente && is_numeric($idCliente)) {
       text-decoration: none;
     }
 
+        a{
+      text-decoration: none;
+    }
+
     .square:hover {
       background-color: #12738b;
       transform: scale(1.05);
