@@ -21,7 +21,7 @@ if(!empty($imagem)&&$tamanho > 0){
     $conteudo=mysqli_real_escape_string($conexao,$conteudo);
 
     $queryInsercao = "INSERT INTO tabela_imagens(evento, descricao, nome_imagem,tamanho_imagem, tipo_imagem,imagem) 
-    values('$evento','$descricao','$tamanho', '$tipo', $conteudo)";
+    values('$evento','$descricao', '$nome' ,'$tamanho', '$tipo', '$conteudo')";
 
     $resultado=mysqli_query($conexao,$queryInsercao);
     //Verifica se a inserção foi bem sucedida

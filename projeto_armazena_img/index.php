@@ -66,5 +66,14 @@ if(!$resultado){
          
     </table>
 
+    <br><br>
+
+    <address align="center" >
+
+Trabalho desenvolvido pelo aluno Pedro Gabriel | Aluno Tecnico | Desinvolvimento de sistemas
+
+</address>
+                
+
 </body>
 </html>
