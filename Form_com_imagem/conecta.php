@@ -7,13 +7,13 @@
 *Retorna um objeto de conexão MySQLi ou interrompe o script em caso de erro
 
 */
-
+ 
 function conectadb(){
     //configuração do banco de dados
     $endereco = "localhost"; //endereço do servidor mysql
     $usuario = "root";  //nome do usuario do banco de dados
     $senha = "";    //senha do banco de dados
-    $banco = "empresa"; //nome do banco de dados
+    $banco = "armazena_imagem"; //nome do banco de dados
     
     try{
     //Criação da conexão
