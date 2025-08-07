@@ -89,7 +89,7 @@ try {
         <input type="hidden" name="excluir_id" value="<?= $id ?>">
         <button type="submit"> Excluir Funcionario </button>
 
-
+        
     </form>
 </body>
 

@@ -31,6 +31,11 @@
 
     </div>
 
+    <address align="center" >
+
+Trabalho desenvolvido pelo aluno Pedro Gabriel | Aluno Tecnico | Desinvolvimento de sistemas
+
+</address>
 
 
 </body>

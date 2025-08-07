@@ -64,4 +64,11 @@ try {
     </ul>
 </body>
 
+<address align="center" >
+
+Trabalho desenvolvido pelo aluno Pedro Gabriel | Aluno Tecnico | Desinvolvimento de sistemas
+
+</address>
+
+
 </html>

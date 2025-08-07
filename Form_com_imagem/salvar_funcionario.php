@@ -96,4 +96,12 @@ try {
     <h1>Lista de Imagens</h1>
     <a href="consulta_funcionario.php">Listar Funcionarios!</a>
 </body>
+
+<address align="center" >
+
+Trabalho desenvolvido pelo aluno Pedro Gabriel | Aluno Tecnico | Desinvolvimento de sistemas
+
+</address>
+
+
 </html>
