@@ -23,7 +23,7 @@ function redimensionarImagem($imagem, $largura, $altura)
     ob_start();
 
     //imagejpeg() envia a imagem para o output
-    imagejpeg($novaImagem, $imagem);
+    imagejpeg($novaImagem);
 
     // ob_get_clean PEGA O CONTEUDO DO BUFFER E LIMPA
     $dadosImagem = ob_get_clean();

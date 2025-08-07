@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Funcionario</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Cadastro</h1>
-        <h2>Funcionario</h2>
+        <h1>Cadastro Funcionario</h1>
+        
         <!-- Formulario para Cadastrar um novo funcionario -->
 
         <form action="salvar_funcionario.php" method="POST" enctype="multipart/form-data">
@@ -29,10 +30,8 @@
         </form>
 
     </div>
-    
-    <address align="center">
-        Trabalho desenvolvido pelo aluno Pedro Gabriel | Aluno Tecnico | Desinvolvimento de sistemas
-    </address>
+
+
 
 </body>
 </html>

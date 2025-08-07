@@ -45,12 +45,12 @@ try {
 </head>
 
 <body>
-    <h1>Consulta de Funcionios</h1>
+    <h1>Consulta de Funcionario</h1>
     <ul>
         <?php foreach ($funcionarios as $funcionario): ?>
             <li>
                 <!-- A linha abaixo exibe o link para visualizar os detalhes do funcionario com base no ID -->
-                <a href="visualizar_funcionario.php?id=<? $funcionario['id'] ?>">
+                <a href="visualizar_funcionario.php?id=<?= $funcionario['id'] ?>">
                     <!-- A linha abaixo exibe o nome do funcionario -->
                     <?= htmlspecialchars($funcionario['nome']) ?>
                 </a>
